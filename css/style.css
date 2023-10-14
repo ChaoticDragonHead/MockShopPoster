@@ -1,4 +1,6 @@
-
+body{
+    background-color: #9cf6f6;
+}
 
 h2{
     text-align: center;
@@ -15,9 +17,17 @@ h1{
     padding-left: 20px;
     padding-right: 20px;
 
-    border: 5px solid #9cf6f6;
+    border: 5px solid #ff7477;
 
     background-color: #b5d6d6;
+}
+
+#title{
+
+    text-align: center;
+    height: 150px;
+
+    background-color: purple;
 }
 
 
