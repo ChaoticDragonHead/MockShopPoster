@@ -1,38 +1,21 @@
-/* /* body{
-    
+body{
+    margin-left: 400px;
+    margin-right: 400px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background-color: #b5d6d6;
 }
 
-.catalogCard::after{
-    content: "";
-    clear: both;
-    display: inline-block;
- add this one
-    padding: 10px;
-    margin: 10px; 
+h2{
+    text-align: center;
 }
 
-.catalogCard{
-    overflow: auto;
+h1{
+    text-align: center;
 }
 
-.catalog{
-background-color: coral;
-}
-.catalogImg{
-    float: left;
-    width: auto;
-}
-.catalogContainer{
-    background-color: aquamarine;
-}
-.catalogCard{
-    height: 400px;
-    display: flex;
-}
-
-.catalogImg{
-    float: left;
-} */
 
 
 .catalog {
