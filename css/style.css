@@ -29,9 +29,13 @@ h1{
     display: inline-block;
     margin: 0.5rem;
     min-height: 100px;
-    background-color: wheat;
+    background: rgba(230, 149, 150, .75);
+
+    box-shadow: 5px 5px 5px #221f24;
 
     border-radius: 20px;
+
+    transition: transform .2s;
 }
 .catalogContainer {
     overflow: hidden;
@@ -47,7 +51,9 @@ h1{
 }
 
 .catalogCard:hover{
-    background-color: grey;
-    box-shadow: 5px 5px 5px black;
+    background-color: #e69597;
+    box-shadow: 7px 7px 7px black;
+
+    transform: scale(1.02);
 }
 
