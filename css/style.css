@@ -1,0 +1,54 @@
+/* /* body{
+    
+}
+
+.catalogCard::after{
+    content: "";
+    clear: both;
+    display: inline-block;
+ add this one
+    padding: 10px;
+    margin: 10px; 
+}
+
+.catalogCard{
+    overflow: auto;
+}
+
+.catalog{
+background-color: coral;
+}
+.catalogImg{
+    float: left;
+    width: auto;
+}
+.catalogContainer{
+    background-color: aquamarine;
+}
+.catalogCard{
+    height: 400px;
+    display: flex;
+}
+
+.catalogImg{
+    float: left;
+} */
+
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+}
+.catalogCard {
+    display: inline-block;
+    margin: 0.5rem;
+    min-height: 100px;
+}
+.catalogContainer {
+    overflow: hidden;
+    margin: auto;
+}
+.catalogImg{
+    float: left;
+}
+
