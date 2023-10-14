@@ -1,12 +1,4 @@
-body{
-    margin-left: 400px;
-    margin-right: 400px;
 
-    padding-left: 20px;
-    padding-right: 20px;
-
-    background-color: #b5d6d6;
-}
 
 h2{
     text-align: center;
@@ -16,6 +8,17 @@ h1{
     text-align: center;
 }
 
+#poster{
+    margin-left: 400px;
+    margin-right: 400px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border: 5px solid #9cf6f6;
+
+    background-color: #b5d6d6;
+}
 
 
 .catalog {
@@ -33,5 +36,9 @@ h1{
 }
 .catalogImg{
     float: left;
+}
+
+.catalogCard:hover{
+    background-color: grey;
 }
 
